@@ -26,6 +26,11 @@ public class A3Q1 {
    new Thing(kw, 1, 6);
    new Thing(kw, 1, 5);
    new Thing(kw, 1, 7);
- 
+   while(karel.frontIsClear()){
+       karel.move();
+       if(karel.canPickThing()){
+           break;
+       }
+   }
 }
 }
