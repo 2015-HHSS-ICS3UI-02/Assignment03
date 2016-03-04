@@ -33,7 +33,6 @@ public class A3Q3 {
         new Wall(town, 2, 3, Direction.EAST);
         new Wall(town, 2, 0, Direction.SOUTH);
         new Wall(town, 2, 1, Direction.SOUTH);
-        new Wall(town, 2, 2, Direction.SOUTH);
         new Wall(town, 2, 3, Direction.SOUTH);
         new Wall(town, 0, 0, Direction.WEST);
         new Wall(town, 1, 0, Direction.WEST);
@@ -47,6 +46,7 @@ public class A3Q3 {
                     break;  }
             }
         
+        // checking walls
         while(true)
             {   if(!sam.frontIsClear())
                     {   sam.turnLeft();
