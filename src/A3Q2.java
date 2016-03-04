@@ -38,13 +38,12 @@ public class A3Q2 {
         new Wall(Kitchener, 3,1, Direction.WEST);
         new Wall(Kitchener, 2,1, Direction.WEST);
         new Thing(Kitchener, 1,2);
-        new Thing(Kitchener, 2,2);
         new Thing(Kitchener, 2,3);
-        new Thing(Kitchener, 2,4);
-        new Thing(Kitchener, 3,4);
-        new Thing(Kitchener, 3,1);
+        new Thing(Kitchener, 3,2);
+        new Thing(Kitchener, 2,1);
         for(int num=0;num<4;num=num+1){
         karel.move();
+        karel.pickThing();
         karel.move();
         karel.turnLeft();
         karel.turnLeft();
