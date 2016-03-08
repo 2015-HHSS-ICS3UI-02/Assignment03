@@ -36,6 +36,38 @@ public class A3Q3 {
         new Wall(Kitchener, 3,1, Direction.WEST);
         new Wall(Kitchener, 2,1, Direction.WEST);
         
-        
+        while(karel.frontIsClear()){
+            karel.move();
+            karel.turnLeft();
         }
+            if(karel.frontIsClear()){
+            karel.move();
+            karel.turnLeft();
+        }
+            else{
+            karel.turnLeft();
+            karel.turnLeft();
+            karel.turnLeft();
+            }
+            if(karel.frontIsClear()){
+            karel.move();
+            karel.turnLeft();
+        }
+            else{
+            karel.turnLeft();
+            karel.turnLeft();
+            karel.turnLeft();
+            }
+            if(karel.frontIsClear()){
+            karel.move();
+            karel.turnLeft();
+        }
+            else{
+            karel.turnLeft();
+            karel.turnLeft();
+            karel.turnLeft();
+            }
+            
+
+}
 }
