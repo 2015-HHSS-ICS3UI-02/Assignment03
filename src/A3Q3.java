@@ -24,7 +24,7 @@ public class A3Q3 {
         
         City kw = new City();
         
-        Robot bot = new Robot(kw,2,1,Direction.EAST);
+        Robot bot = new Robot(kw,2,1,Direction.NORTH);
          
        new Wall(kw, 0, 0, Direction.NORTH);
         new Wall(kw, 0, 0, Direction.WEST);
